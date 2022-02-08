@@ -21,4 +21,19 @@
 
 body {
   font-family: "Outfit", sans-serif;
+  background-color: var(--light-gray);
+}
+
+.card-container {
+  max-width: 300px;
+  margin: 30px auto;
+  border: 1px solid red;
+}
+
+.qr-code {
+  max-width: 100%;
+}
+
+.qr-code img {
+  width: 100%;
 }
