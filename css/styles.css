@@ -25,9 +25,11 @@ body {
 }
 
 .card-container {
+  background-color: var(--white);
   max-width: 300px;
   margin: 30px auto;
-  border: 1px solid red;
+  padding: 15px;
+  border-radius: 15px;
 }
 
 .qr-code {
@@ -36,4 +38,5 @@ body {
 
 .qr-code img {
   width: 100%;
+  border-radius: 10px;
 }
