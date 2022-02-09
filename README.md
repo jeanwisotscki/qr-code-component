@@ -1,5 +1,7 @@
 # Frontend Mentor - QR code component
 
+### Você pode acessar o projeto por este link: https://jeanwisotscki.github.io/qr-code-component/
+
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
