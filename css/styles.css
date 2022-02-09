@@ -22,14 +22,19 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: var(--light-gray);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-container {
   background-color: var(--white);
   max-width: 300px;
-  margin: 30px auto;
-  padding: 15px;
   border-radius: 15px;
+  margin-bottom: 30px;
+  padding: 15px;
 }
 
 .qr-code {
@@ -39,4 +44,21 @@ body {
 .qr-code img {
   width: 100%;
   border-radius: 10px;
+}
+
+.texts h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--dark-blue);
+  margin: 20px 0 15px 0;
+}
+
+.texts p {
+  color: var(--grayish-blue);
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 15px;
+  margin-bottom: 20px;
 }
